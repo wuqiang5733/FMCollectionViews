@@ -8,13 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController, UICollectionViewDataSource {
+class ViewController: UIViewController, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
     
     @IBOutlet weak var collectionItems: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionItems.dataSource = self
+         collectionItems.delegate = self
+        
         collectionItems.backgroundColor = UIColor.white
         // 有向中间靠拢
         let layout = collectionItems.collectionViewLayout as! UICollectionViewFlowLayout
@@ -50,7 +52,7 @@ class ViewController: UIViewController, UICollectionViewDataSource {
             }
         }
     }
-    
+    // 头部跟尾部
     func collectionView(_ collectionView: UICollectionView, viewForSupplementaryElementOfKind kind: String, at indexPath: IndexPath) -> UICollectionReusableView {
         switch kind {
         case UICollectionElementKindSectionHeader:
@@ -65,6 +67,17 @@ class ViewController: UIViewController, UICollectionViewDataSource {
         default:
             assert(false, "Error")
         }
+    }
+    // Item 根据图片大小 而变化
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        var width: CGFloat = 140
+        var height: CGFloat = 180
+        let file = AppData.items[indexPath.item]
+        if let image = UIImage(named: file) {
+            width = image.size.width
+            height = image.size.height
+        }
+        return CGSize(width: width, height: height)
     }
 }
 
