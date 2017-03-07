@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		042DD0C71E6C5FCF00ADD3F2 /* BookCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DD0C61E6C5FCF00ADD3F2 /* BookCell.swift */; };
+		042DD0C91E6C605A00ADD3F2 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042DD0C81E6C605A00ADD3F2 /* ApplicationData.swift */; };
 		0476CE1B1E6B08D00079045A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476CE1A1E6B08D00079045A /* AppDelegate.swift */; };
 		0476CE1D1E6B08D00079045A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476CE1C1E6B08D00079045A /* ViewController.swift */; };
 		0476CE201E6B08D00079045A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0476CE1E1E6B08D00079045A /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042DD0C61E6C5FCF00ADD3F2 /* BookCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookCell.swift; sourceTree = "<group>"; };
+		042DD0C81E6C605A00ADD3F2 /* ApplicationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
 		0476CE171E6B08D00079045A /* FMCollectionViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FMCollectionViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0476CE1A1E6B08D00079045A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0476CE1C1E6B08D00079045A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				0476CE1A1E6B08D00079045A /* AppDelegate.swift */,
 				0476CE1C1E6B08D00079045A /* ViewController.swift */,
 				0476CE1E1E6B08D00079045A /* Main.storyboard */,
+				042DD0C61E6C5FCF00ADD3F2 /* BookCell.swift */,
+				042DD0C81E6C605A00ADD3F2 /* ApplicationData.swift */,
 				0476CE211E6B08D00079045A /* Assets.xcassets */,
 				0476CE231E6B08D00079045A /* LaunchScreen.storyboard */,
 				0476CE261E6B08D00079045A /* Info.plist */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				042DD0C71E6C5FCF00ADD3F2 /* BookCell.swift in Sources */,
 				0476CE1D1E6B08D00079045A /* ViewController.swift in Sources */,
+				042DD0C91E6C605A00ADD3F2 /* ApplicationData.swift in Sources */,
 				0476CE1B1E6B08D00079045A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +511,7 @@
 				0476CE411E6B08D00079045A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0476CE421E6B08D00079045A /* Build configuration list for PBXNativeTarget "FMCollectionViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				0476CE441E6B08D00079045A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0476CE451E6B08D00079045A /* Build configuration list for PBXNativeTarget "FMCollectionViewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				0476CE471E6B08D00079045A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
