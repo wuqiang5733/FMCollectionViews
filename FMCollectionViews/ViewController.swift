@@ -9,12 +9,16 @@
 import UIKit
 
 class ViewController: UIViewController, UICollectionViewDataSource {
+    
     @IBOutlet weak var collectionItems: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionItems.dataSource = self
         collectionItems.backgroundColor = UIColor.white
+        // 有向中间靠拢
+        let layout = collectionItems.collectionViewLayout as! UICollectionViewFlowLayout
+        layout.sectionInset = UIEdgeInsets(top: 25, left: 20, bottom: 25, right: 20)
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
