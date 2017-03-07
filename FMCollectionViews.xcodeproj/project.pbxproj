@@ -17,6 +17,8 @@
 		0476CE301E6B08D00079045A /* FMCollectionViewsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476CE2F1E6B08D00079045A /* FMCollectionViewsTests.swift */; };
 		0476CE3B1E6B08D00079045A /* FMCollectionViewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0476CE3A1E6B08D00079045A /* FMCollectionViewsUITests.swift */; };
 		04A0A50F1E6EDA5000C6A040 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A50E1E6EDA5000C6A040 /* DetailViewController.swift */; };
+		04A0A5111E6EED7D00C6A040 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A5101E6EED7D00C6A040 /* HeaderView.swift */; };
+		04A0A5131E6EEDAD00C6A040 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A0A5121E6EEDAD00C6A040 /* FooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		0476CE3A1E6B08D00079045A /* FMCollectionViewsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FMCollectionViewsUITests.swift; sourceTree = "<group>"; };
 		0476CE3C1E6B08D00079045A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A0A50E1E6EDA5000C6A040 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		04A0A5101E6EED7D00C6A040 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		04A0A5121E6EEDAD00C6A040 /* FooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				0476CE1A1E6B08D00079045A /* AppDelegate.swift */,
 				0476CE1C1E6B08D00079045A /* ViewController.swift */,
 				0476CE1E1E6B08D00079045A /* Main.storyboard */,
+				04A0A5101E6EED7D00C6A040 /* HeaderView.swift */,
+				04A0A5121E6EEDAD00C6A040 /* FooterView.swift */,
 				04A0A50E1E6EDA5000C6A040 /* DetailViewController.swift */,
 				042DD0C61E6C5FCF00ADD3F2 /* BookCell.swift */,
 				042DD0C81E6C605A00ADD3F2 /* ApplicationData.swift */,
@@ -269,6 +275,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				042DD0C71E6C5FCF00ADD3F2 /* BookCell.swift in Sources */,
+				04A0A5131E6EEDAD00C6A040 /* FooterView.swift in Sources */,
+				04A0A5111E6EED7D00C6A040 /* HeaderView.swift in Sources */,
 				0476CE1D1E6B08D00079045A /* ViewController.swift in Sources */,
 				04A0A50F1E6EDA5000C6A040 /* DetailViewController.swift in Sources */,
 				042DD0C91E6C605A00ADD3F2 /* ApplicationData.swift in Sources */,
